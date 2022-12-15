@@ -17,27 +17,22 @@ To setup the training lab environment
 > clab dep -t sros.yml --reconfigure <br>
 
 After the script runs sucessfully, a  <b>clab inspect --all </b> check should return an ouput like below
-![](containers.jpg)
-
-Alpine Linux hosts also need to be configured <br>
-You can do that by running 
-> sh configure_hosts.sh
+![](containers.JPG)
 
 Now you must be able to ping hosts from each other <br>
 
-from host10: 
->ping 192.168.200.15 
+from Client1: 
+>ping 10.0.0.102
 
-from host20: 
->ping 192.168.100.15 
-
+from Client2: 
+>ping 10.0.0.101
 
 
 You can connect to host nodes (ie host-11) 
-> docker exec -ti clab-muzolab-host11 bash
+> docker exec -ti clab-dc-client1 bash
 
-You can connect to SRLinux nodes (ie host-11) 
-> docker exec -ti clab-muzolab-spine1 sr_cli
+You can connect to SROS nodes (ie leaf1) 
+> ssh admin@172.22.22.101
 
 
 Thanks 
