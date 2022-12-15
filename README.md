@@ -12,9 +12,9 @@ To install containerlab (CentOS 7)
 
 To setup the training lab environment
 > cd / <br>
-> git clone https://github.com/muzafferkahraman/srlinux-training-lab <br>
-> cd srlinux-training-lab <br>
-> clab dep -t muzolab.yml --reconfigure <br>
+> git clone https://github.com/muzafferkahraman/sros-training-lab <br>
+> cd sros-training-lab <br>
+> clab dep -t sros.yml --reconfigure <br>
 
 After the script runs sucessfully, a  <b>docker ps -a </b> check should return an ouput like below
 ![](containers.jpg)
