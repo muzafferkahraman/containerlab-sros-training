@@ -16,7 +16,7 @@ To setup the training lab environment
 > cd sros-training-lab <br>
 > clab dep -t sros.yml --reconfigure <br>
 
-After the script runs sucessfully, a  <b>docker ps -a </b> check should return an ouput like below
+After the script runs sucessfully, a  <b>clab inspect --all </b> check should return an ouput like below
 ![](containers.jpg)
 
 Alpine Linux hosts also need to be configured <br>
