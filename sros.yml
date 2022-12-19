@@ -2,11 +2,6 @@
 name: dc
 
 
-mgmt:
- network: kind
- ipv4_subnet: 172.22.22.0/24
-
-
 ######### Global Variables for Config Engine #########
 topology:
   kinds:
