@@ -7,7 +7,7 @@ topology:
   kinds:
     vr-sros:
       image: sros:21.2R2
-      license: sros-license
+      license: /licenses/sros-license
 
   #######################################################
   nodes:
