@@ -19,13 +19,13 @@ topology:
       kind: vr-sros
       type: ixr-e-small
       mgmt_ipv4: 172.22.22.101
-      startup-config: sros1.cli
+      startup-config: leaf1.cfg
     #-----------------------------------------------------#
     leaf2:
       kind: vr-sros
       type: ixr-e-small
       mgmt_ipv4: 172.22.22.102
-      startup-config: sros2.cli
+      startup-config: leaf2.cfg
     #-----------------------------------------------------#
     #-----------------------------------------------------#
     client1:
