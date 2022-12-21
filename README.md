@@ -1,7 +1,7 @@
 <h1>Container Lab Setup for SROS</h1>
 
 This is to setup the lab environment for SROS, using the containerlab, as below
-![](schema.JPG)
+![](schemanew.JPG)
 
 
 To install containerlab (CentOS 7)
