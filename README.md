@@ -22,10 +22,10 @@ After the script runs sucessfully, a  <b>clab inspect --all </b> check should re
 Now you must be able to ping hosts from each other <br>
 
 from Client1: 
->ping 10.0.0.102
+>ping 10.0.0.27
 
 from Client2: 
->ping 10.0.0.101
+>ping 10.0.0.25
 
 
 You can connect to host nodes (ie host-11) 
