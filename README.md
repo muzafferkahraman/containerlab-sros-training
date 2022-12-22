@@ -36,7 +36,9 @@ You can connect to SROS nodes (ie leaf1)
 
 <b> Note </b>
 
-You should acquire a valid SROS license and copy at the folder with the name of sros-licenseThanks 
+You should acquire a valid SROS license and copy at the folder with the name of sros-license
+
+Thanks 
 
 
 
