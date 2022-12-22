@@ -34,6 +34,7 @@ You can connect to host nodes (ie host-11)
 You can connect to SROS nodes (ie leaf1) 
 > ssh admin@172.22.22.101
 
+Note: You should acquire a valid SROS license and copy at the folder with the name of sros-license
 
 Thanks 
 
